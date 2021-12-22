@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { AppContext } from "../Context";
+import { AppContext } from "./../contexts/Context";
 const Form = () => {
   const { insertUser } = useContext(AppContext);
   const [newUser, setNewUser] = useState({});
