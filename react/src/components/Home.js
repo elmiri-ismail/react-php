@@ -27,7 +27,7 @@ function Home() {
                 </div>
                 <Provider value={data}>
                     <div className="App">
-                        <h1>React JS + PHP CRUD Application</h1>
+                        <h1>The members</h1>
                         <div className="wrapper">
                             <section className="left-side">
                                 <Form />
