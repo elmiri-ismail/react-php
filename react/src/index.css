@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
+    color: black;
 }
 
 body {
@@ -11,19 +13,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('back.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   padding: 20px;
   color: #3b5441;
+  background: white !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.avatar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.avatar img{
+  width: 170px;
+}
 .userInfo,
 ._loginRegister{
   background-color: rgb(222 222 222 / 10%);
@@ -35,6 +44,7 @@ code {
     backdrop-filter: blur(3px);
     margin-top: -36px;
     margin-bottom: 12px;
+    color: white;
 }
 
 ._loginRegister .form-control{
@@ -69,9 +79,11 @@ code {
 {
   border-color: #107a8b;
 }
-.input {
-  background: hsl(0deg 0% 87% / 50%);
-    border-radius: 10px;
+.input { background: transparent;
+border: none;
+color: #65c9ff;
+border-bottom: 2px solid black;
+border-radius: inherit;
 }
 
 ._navBtn button,
