@@ -56,8 +56,8 @@ function Register(){
 
     return(
         <div className="_loginRegister">
-                        <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light'
-/>    
+                       <div className='avatar'> <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=Default&mouthType=Smile&skinColor=Light'
+/>    </div>
             <h1>Sign Up</h1>
             <form onSubmit={submitForm} noValidate>
                 <div className="form-control">

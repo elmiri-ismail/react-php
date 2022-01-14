@@ -18,7 +18,7 @@ body {
   height: 100vh;
   padding: 20px;
   color: #3b5441;
-  background: white !important;
+  background-image: url('./blob-scene-haikei.svg') !important;
 }
 
 code {
@@ -37,15 +37,18 @@ code {
 ._loginRegister{
   background-color: rgb(222 222 222 / 10%);
     padding: 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
     max-width: 400px;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     margin-top: -36px;
     margin-bottom: 12px;
     color: white;
 }
+._loginRegister img {
+  width: 130px;}
 
 ._loginRegister .form-control{
   display: flex;
@@ -88,18 +91,16 @@ border-radius: inherit;
 
 ._navBtn button,
 [type="submit"]{
-  background: #4b48ff;
-  color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, .1);
-  padding: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 20px;
- 
-  
-  margin-top: 5px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  outline: none;
+  background: #65c9ff;
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 5px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    outline: none;
 }
 ._navBtn button:hover,
 [type="submit"]:hover{
@@ -176,7 +177,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background-image: url('./back.jpg');
    background-size: cover;
   padding: 50px;
 }
@@ -187,12 +187,15 @@ code {
 }
 
 .App {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 20px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  border-radius: 3px;
+  
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    border-radius: 3px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+
 }
 
 .App h1 {
